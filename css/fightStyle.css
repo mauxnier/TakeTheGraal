@@ -1,0 +1,13 @@
+* { margin: 0; padding: 0; border: 0; }
+
+#continuer, #retry {
+	position: absolute;
+	top: 90%;
+	left: 45%;
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: orange;
+}

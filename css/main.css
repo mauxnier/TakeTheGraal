@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; border: 0; }
+
+HTML { 
+	overflow-x: hidden;
+	overflow-y: hidden;
+ }
+ 
+a {
+	text-decoration: none;
+	color: green;
+}
+ 
+#explication {
+	position : absolute ;
+	z-index : 1;
+	top :25%;
+	left : 3%; 
+	text-align : center;
+	font-size : 50px;
+	font-family: "Arial Black", sans-serif;
+}
+
+#jeu {
+	position : absolute ;
+	z-index : 1;
+	left : 43%;
+	top : 80%;
+}

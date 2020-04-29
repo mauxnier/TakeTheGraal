@@ -1,0 +1,4 @@
+Vous décidez donc de partir vers l'Est à la recherche de cet objet mystique
+Après plusieurs heures de marche vous vous retrouvez devant une grotte qui
+ne vous inspire pas confiance,vous remarquez un chemin contournant la
+grotte. Voulez-vous rentrer dans la grotte ou la contourner?

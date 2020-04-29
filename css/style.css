@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; border: 0; }
+
+.page {
+	width: 100%;
+}
+
+button {
+	height: 50px;
+	margin: 10px;
+	border: solid;
+	border-color: black;
+	border-radius: 8px;
+	background: white;
+	flex-grow: 1;
+}
+
+#choix_bouton {
+	display: flex; /* boutons équitablement larges ou longs */
+	flex-direction: row; /* row et column */
+	background: transparent;
+	position: absolute;
+	bottom: 0px;
+	z-index: 2; /* c'est la couche */
+}
+
+#fondu {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height: 100%;
+}

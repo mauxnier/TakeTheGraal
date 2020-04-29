@@ -1,0 +1,4 @@
+Vous décidez de contourner la grotte. Vous entamez donc une longue marche.
+Au début de la nuit, vous voyez un gigantesque arbre qui vous parait étrange et une petite masure qui à l'air abandonné
+en plein milieu d'une clairière. Voulez-vous y entrer et vous reposer ou 
+Voulez-vous continuer et avoir un malus du à la fatigue?
