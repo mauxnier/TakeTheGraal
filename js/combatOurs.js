@@ -33,10 +33,10 @@ var test = true;
 
 
 function preload () {									//fonction qui permet de pré-charger les sons et images qui seront utiliser 
-	imgjoueur_1 = loadImage ("../img/fight/mage.png");		//on rentre l'image qui sera dans le sprite du joueur 1 dans la variable imgjoueur_1
-	imgennemi_1 = loadImage ("../img/fight/ours.png");		//on rentre l'image qui sera dans le sprite de l'ennemi_1 dans la variable imgennemi_1
-	imgsort_a = loadImage ("../img/fight/feu.png");			//on rentre l'image qui sera dans le sprite du sort du joueur_1
-	imgfond = loadImage ("../img/fight/salleAvecGraal.png");	//on rentre l'image de fond
+	imgjoueur_1 = loadImage ("https://paraceltus.github.io/TakeTheGraal/img/fight/mage.png");		//on rentre l'image qui sera dans le sprite du joueur 1 dans la variable imgjoueur_1
+	imgennemi_1 = loadImage ("https://paraceltus.github.io/TakeTheGraal/img/fight/ours.png");		//on rentre l'image qui sera dans le sprite de l'ennemi_1 dans la variable imgennemi_1
+	imgsort_a = loadImage ("https://paraceltus.github.io/TakeTheGraal/img/fight/feu.png");			//on rentre l'image qui sera dans le sprite du sort du joueur_1
+	imgfond = loadImage ("https://paraceltus.github.io/TakeTheGraal/img/fight/salleAvecGraal.png");	//on rentre l'image de fond
 }
 
 function setup () {		
