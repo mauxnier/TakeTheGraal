@@ -7,9 +7,9 @@ var imgtitre;
 
 
 function preload(){
-	imgfond = loadImage ("../img/home/cheminForet.png");
-	imgfondinv = loadImage ("../img/home/cheminForetInverse.png");
-	imgtitre = loadImage ("../img/home/titre.png");
+	imgfond = loadImage ("img/home/cheminForet.png");
+	imgfondinv = loadImage ("img/home/cheminForetInverse.png");
+	imgtitre = loadImage ("img/home/titre.png");
 }
 
 function setup() {
