@@ -170,7 +170,7 @@ function executerLigne(ligne){ // * interpréteur du code du fichier deroulement
 		personnage[nom].remove();
 	}
 	else if (commande == 'fight'){
-		document.location = 'https://paraceltus.github.io/TakeTheGraal/' + arguments[0] + '.html';
+		document.location = 'https://killianmonnier.github.io/TakeTheGraal/' + arguments[0] + '.html';
 	}
 		
 	numLigneActuelle++;
