@@ -7,9 +7,9 @@ var imgtitre;
 
 
 function preload(){
-	imgfond = loadImage ("https://paraceltus.github.io/TakeTheGraal/img/home/cheminForet.png");
-	imgfondinv = loadImage ("https://paraceltus.github.io/TakeTheGraal/img/home/cheminForetInverse.png");
-	imgtitre = loadImage ("https://paraceltus.github.io/TakeTheGraal/img/home/titre.png");
+	imgfond = loadImage ("https://killianmonnier.github.io/TakeTheGraal/img/home/cheminForet.png");
+	imgfondinv = loadImage ("https://killianmonnier.github.io/TakeTheGraal/img/home/cheminForetInverse.png");
+	imgtitre = loadImage ("https://killianmonnier.github.io/TakeTheGraal/img/home/titre.png");
 }
 
 function setup() {
