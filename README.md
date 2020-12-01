@@ -3,6 +3,7 @@ Take The Graal est un jeu développé en collaboration avec [Nicolas Bourbasquet
 
 ## Remerciement 👏
 Un grand merci à [illyrana ~](https://www.instagram.com/lyra_tiare/) pour tout ces magnifiques dessins réalisés pour le projet !
+Merci également à [Nathan Royer](https://github.com/NathanRoyer) pour m'avoir transmis énormément de son savoir.
 
 ## Documentation 📚
 -   [Problème de chemin pour les images du site](https://github.com/mkdocs/mkdocs/issues/1757) : https://killianmonnier.github.io/TakeTheGraal/
