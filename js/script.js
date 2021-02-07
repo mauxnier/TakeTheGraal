@@ -5,11 +5,10 @@ var fond2;
 var titre;
 var imgtitre;
 
-
 function preload(){
-	imgfond = loadImage ("https://killianmonnier.github.io/TakeTheGraal/img/home/cheminForet.png");
-	imgfondinv = loadImage ("https://killianmonnier.github.io/TakeTheGraal/img/home/cheminForetInverse.png");
-	imgtitre = loadImage ("https://killianmonnier.github.io/TakeTheGraal/img/home/titre.png");
+	imgfond = loadImage ("https://mauxnier.github.io/TakeTheGraal/img/home/cheminForet.png");
+	imgfondinv = loadImage ("https://mauxnier.github.io/TakeTheGraal/img/home/cheminForetInverse.png");
+	imgtitre = loadImage ("https://mauxnier.github.io/TakeTheGraal/img/home/titre.png");
 }
 
 function setup() {
@@ -28,7 +27,6 @@ function draw() {
 	bouger();
 	replacement();
 }
-
 
 function bouger() {
 	fond.position.y += 2;

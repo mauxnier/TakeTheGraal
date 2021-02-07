@@ -35,7 +35,7 @@ function executerLigne(ligne){ // * interpréteur du code du fichier deroulement
 	if (commande == 'fond'){ // *** fait apparaître un fond *** //
 		var fichier = arguments[0];
 		mode = "chargement";
-		loadImage("https://killianmonnier.github.io/TakeTheGraal/img/fond/" + fichier, function(img){ imageFond = img; mode = "deroulement"; }); // https://p5js.org/reference/#/p5/loadImage : appelée quand l'image est chargée
+		loadImage("https://mauxnier.github.io/TakeTheGraal/img/fond/" + fichier, function(img){ imageFond = img; mode = "deroulement"; }); // https://p5js.org/reference/#/p5/loadImage : appelée quand l'image est chargée
 	}
 	else if (commande == 'summon'){ // *** fait apparaître un personnage *** //
 		var nom = arguments[0];
@@ -46,7 +46,7 @@ function executerLigne(ligne){ // * interpréteur du code du fichier deroulement
 		var tailleY = parseInt(arguments[5]) | 100;
 
 		mode = "chargement";
-		loadImage("https://killianmonnier.github.io/TakeTheGraal/img/perso/" + fichier, function(img){ // https://p5js.org/reference/#/p5/loadImage : appelée quand l'image est chargée
+		loadImage("https://mauxnier.github.io/TakeTheGraal/img/perso/" + fichier, function(img){ // https://p5js.org/reference/#/p5/loadImage : appelée quand l'image est chargée
 			img.resize(tailleX, tailleY);
 			personnage[nom] = createSprite(positionX, positionY, 100, 100);
 			personnage[nom].setCollider('circle', 0, 0, 20);
@@ -170,7 +170,7 @@ function executerLigne(ligne){ // * interpréteur du code du fichier deroulement
 		personnage[nom].remove();
 	}
 	else if (commande == 'fight'){
-		document.location = 'https://killianmonnier.github.io/TakeTheGraal/' + arguments[0] + '.html';
+		document.location = 'https://mauxnier.github.io/TakeTheGraal/' + arguments[0] + '.html';
 	}
 		
 	numLigneActuelle++;
